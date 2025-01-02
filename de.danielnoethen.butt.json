@@ -57,6 +57,24 @@
             ]
         },
         {
+            "name": "libdatachannel",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DUSE_GNUTLS=0",
+                "-DUSE_NICE=0",
+                "-DNO_EXAMPLES=1",
+                "-DCMAKE_BUILD_TYPE=Release"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/paullouisageneau/libdatachannel.git",
+                    "tag": "v0.22.3",
+                    "commit": "d74748fd46f75cee5090d187841c6921820eb9d0"
+                }
+            ]
+        },
+        {
             "name": "fltk",
             "buildsystem": "cmake-ninja",
             "sources": [
@@ -74,6 +92,7 @@
             "no-autogen": true,
             "config-opts": [
                 "--with-client",
+                "--enable-webrtc",
                 "--prefix=/app"
             ],
             "post-install": [
