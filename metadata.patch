@@ -1,8 +1,8 @@
 diff --git a/usr/share/metainfo/de.danielnoethen.butt.metainfo.xml b/usr/share/metainfo/de.danielnoethen.butt.metainfo.xml
-index 513f18c..b2dc9c0 100644
+index 513f18c..c18c067 100644
 --- a/usr/share/metainfo/de.danielnoethen.butt.metainfo.xml
 +++ b/usr/share/metainfo/de.danielnoethen.butt.metainfo.xml
-@@ -1,23 +1,49 @@
+@@ -1,23 +1,62 @@
  <?xml version="1.0" encoding="UTF-8"?>
  <component type="desktop-application">
    <id>de.danielnoethen.butt</id>
@@ -22,13 +22,27 @@ index 513f18c..b2dc9c0 100644
 +
    <description>
      <p>
-       butt (broadcast using this tool) is an easy to use, multi OS streaming tool. It supports SHOUTcast and Icecast and runs on Linux, Mac OS X and Windows (64 Bit only since version 0.1.20). The main purpose of butt is to stream live audio data from your computers Mic or Line input to a Shoutcast or Icecast server. If you want you can also record your session.
+-      butt (broadcast using this tool) is an easy to use, multi OS streaming tool. It supports SHOUTcast and Icecast and runs on Linux, Mac OS X and Windows (64 Bit only since version 0.1.20). The main purpose of butt is to stream live audio data from your computers Mic or Line input to a Shoutcast or Icecast server. If you want you can also record your session.
++      butt (broadcast using this tool) is an easy to use, multi OS streaming tool. It supports SHOUTcast, Icecast, WebRTC and runs on Linux, Mac OS X and Windows (64 Bit only since version 0.1.20). The main purpose of butt is to stream live audio data from your computers Mic or Line input to a Shoutcast, Icecast or WebRTC server. If you want you can also record your session.
      </p>
    </description>
 -  
 -  <launchable type="desktop-id">butt.desktop</launchable>
 +
 +  <releases>
++    <release version="1.45.0" date="2025-04-19">
++      <description>
++        <ul>
++          <li>Add support for custom URLs and mountpoints for listener statistics</li>
++          <li>Add seperate MIDI commands for START/STOP Broadcasting and Recording</li>
++          <li>Add support for controlling BUTT via MIDI NOTE_ON messages</li>
++          <li>Fix a crash when connecting to a Shoutcast server that is configued with streamhidestats=all</li>
++          <li>Fix an issue where "Listeners: 0" was shown after connecting to servers that don’t provide listener statistics</li>
++          <li>Fix several German translation issues</li>
++          <li>Update credentials for existing radio.co servers when re-adding them</li>
++        </ul>
++      </description>
++    </release>
 +    <release version="1.44.0" date="2024-12-01">
 +      <description>
 +        <ul>
