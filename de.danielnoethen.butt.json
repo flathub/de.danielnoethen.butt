@@ -104,8 +104,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://danielnoethen.de/butt/release/1.45.0/butt-1.45.0.tar.gz",
-                    "sha256": "88498510946c4ef1de28662f9e1cd85d20bfab40d2c3467f6202b86ee0ed8364",
+                    "url": "https://danielnoethen.de/butt/release/1.46.0/butt-1.46.0.tar.gz",
+                    "sha256": "dd1202d87e47327fdee419785c23f1c69bfe1444fd46057b331b5c3aeb1c5f3b",
                     "x-checker-data": {
                         "type": "html",
                         "url": "https://danielnoethen.de/butt/",
