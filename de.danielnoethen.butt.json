@@ -115,10 +115,6 @@
                 },
                 {
                     "type": "patch",
-                    "path": "include-patch.patch"
-                },
-                {
-                    "type": "patch",
                     "path": "metadata.patch"
                 }
             ]

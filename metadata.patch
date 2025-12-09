@@ -1,8 +1,8 @@
 diff --git a/usr/share/metainfo/de.danielnoethen.butt.metainfo.xml b/usr/share/metainfo/de.danielnoethen.butt.metainfo.xml
-index 513f18c..c18c067 100644
+index 513f18c..cb0e3c9 100644
 --- a/usr/share/metainfo/de.danielnoethen.butt.metainfo.xml
 +++ b/usr/share/metainfo/de.danielnoethen.butt.metainfo.xml
-@@ -1,23 +1,62 @@
+@@ -1,23 +1,74 @@
  <?xml version="1.0" encoding="UTF-8"?>
  <component type="desktop-application">
    <id>de.danielnoethen.butt</id>
@@ -30,6 +30,18 @@ index 513f18c..c18c067 100644
 -  <launchable type="desktop-id">butt.desktop</launchable>
 +
 +  <releases>
++    <release version="1.46.0" date="2025-12-07">
++      <description>
++        <ul>
++          <li>Fix possible corruption when recording .wav files</li>
++          <li>Increase number of allowed server setups</li>
++          <li>Improve robustness of recording audio files</li>
++          <li>Improve error message when connecting to a Radio.co server without a scheduled event</li>
++          <li>Linux: Allow settings a jack client name via -j command line parameter</li>
++          <li>Linux: Fix compilation on some systems due to missing #include &#60;ctime&#62;</li>
++        </ul>
++      </description>
++    </release>
 +    <release version="1.45.0" date="2025-04-19">
 +      <description>
 +        <ul>
