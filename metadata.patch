@@ -1,8 +1,8 @@
 diff --git a/usr/share/metainfo/de.danielnoethen.butt.metainfo.xml b/usr/share/metainfo/de.danielnoethen.butt.metainfo.xml
-index 513f18c..cb0e3c9 100644
+index 513f18c..4d9b198 100644
 --- a/usr/share/metainfo/de.danielnoethen.butt.metainfo.xml
 +++ b/usr/share/metainfo/de.danielnoethen.butt.metainfo.xml
-@@ -1,23 +1,74 @@
+@@ -1,23 +1,75 @@
  <?xml version="1.0" encoding="UTF-8"?>
  <component type="desktop-application">
    <id>de.danielnoethen.butt</id>
@@ -30,6 +30,7 @@ index 513f18c..cb0e3c9 100644
 -  <launchable type="desktop-id">butt.desktop</launchable>
 +
 +  <releases>
++    <release version="1.47.0" date="2026-07-05" />
 +    <release version="1.46.0" date="2025-12-07">
 +      <description>
 +        <ul>
