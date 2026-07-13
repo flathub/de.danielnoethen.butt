@@ -1,8 +1,8 @@
 diff --git a/usr/share/metainfo/de.danielnoethen.butt.metainfo.xml b/usr/share/metainfo/de.danielnoethen.butt.metainfo.xml
-index 513f18c..4d9b198 100644
+index 513f18c..c6d6bb1 100644
 --- a/usr/share/metainfo/de.danielnoethen.butt.metainfo.xml
 +++ b/usr/share/metainfo/de.danielnoethen.butt.metainfo.xml
-@@ -1,23 +1,75 @@
+@@ -1,23 +1,87 @@
  <?xml version="1.0" encoding="UTF-8"?>
  <component type="desktop-application">
    <id>de.danielnoethen.butt</id>
@@ -30,7 +30,19 @@ index 513f18c..4d9b198 100644
 -  <launchable type="desktop-id">butt.desktop</launchable>
 +
 +  <releases>
-+    <release version="1.47.0" date="2026-07-05" />
++    <release version="1.47.0" date="2026-07-05">
++      <description>
++        <ul>
++          <li>Update to FLTK 1.4.5</li>
++          <li>Add the ability to scale the UI size (Settings→Misc→Screen scaling)</li>
++          <li>Update cacert.pem to the latest version</li>
++          <li>Shoutcast: URL encode the password when submitting a new song</li>
++          <li>Icecast: URL encode the mountpoint when submitting a new song</li>
++          <li>Linux: Add support for Wayland (start as "FLTK_BACKEND=x11 butt" to run with Waylands X11 fallback Xwayland)</li>
++          <li>Fix: When using Vorbis in VBR mode the min bitrate was set for the upper limit instead of the max bitrate</li>
++        </ul>
++      </description>
++    </release>
 +    <release version="1.46.0" date="2025-12-07">
 +      <description>
 +        <ul>
